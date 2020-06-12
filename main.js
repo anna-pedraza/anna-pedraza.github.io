@@ -19,7 +19,7 @@ navigator.geolocation.getCurrentPosition(position => {
     lat = position.coords.latitude;
     lon = position.coords.longitude;
 
-    const API =  `http://cors-anywhere.herokuapp.com/api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${KEY}`;
+    const API =  `https://cors-anywhere.herokuapp.com/api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${KEY}`;
 
     fetch(API)
     .then(response =>{
