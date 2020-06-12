@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+    
+    background: #007991;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    
+    
+display: flex;
+justify-content: center;
+font-family: 'Roboto', sans-serif;
+}
+
+.container{
+ 
+  
+    background-color: white;
+    width: 30em;
+    height: 20em;
+    border-radius: 2em;
+    margin-top: 4em;
+    text-align: center;
+}
+
+.weather-img, .temp-value,.city-name,.weather-description{
+    margin-left: 0.5rem;
+
+}
